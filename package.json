@@ -4,6 +4,10 @@
   "description": "The fastest directory crawler & globbing alternative to glob, fast-glob, & tiny-glob. Crawls 1m files in < 1s",
   "type": "module",
   "exports": {
+    "require": {
+      "types": "./dist/index.d.cts",
+      "default": "./dist/index.cjs"
+    },
     "types": "./dist/index.d.ts",
     "default": "./dist/index.js"
   },
